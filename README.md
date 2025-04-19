@@ -1,5 +1,5 @@
-# @FizzxyDev/BaileysPro - Typescript/Javascript WhatsApp Web API
-
+# @FarizGD/BaileysV2 - Typescript/Javascript WhatsApp Web API (but more updated)
+idgaf.
 ### Important Note
 
 This library was originally a project of *@adiwajshing/baileys* and is in no way affiliated with or endorsed by WhatsApp. Use at your own discretion. Don't spam others with this. We do not encourage the use of stalking, mass or automated messaging.
@@ -8,11 +8,11 @@ This library was originally a project of *@adiwajshing/baileys* and is in no way
 Fizzxy and its managers are not responsible for misuse of this application, as stated in the MIT license. Fizzxy management in no way condones the use of this application in practices that violate the WhatsApp Terms of Service. The manager of this application holds its users personally responsible for using this application in a fair manner, as it is intended to be used.
 ##
 
-BaileysPro doesn't require Selenium or any other browser to interact with WhatsApp Web, it does it directly using WebSocket. Not running Selenium or Chromimum saves half a gig of ram :/ BaileysPro supports interaction with multi-device & web versions of WhatsApp.
+BaileysV2 doesn't require Selenium or any other browser to interact with WhatsApp Web, it does it directly using WebSocket. Not running Selenium or Chromimum saves half a gig of ram :/ BaileysPro supports interaction with multi-device & web versions of WhatsApp.
  
 ## Please Read
 
-The original repository had to be removed by the original author - we are now continuing development of this repository here. This is one of the modification repositories and is maintained by Fizzxy.
+The original repository had to be removed by the original author - we are now continuing development of this repository here. This is one of the modification repositories and is maintained by FarizGD.
  
  
 ## Example
@@ -28,17 +28,12 @@ To run the example script, download or clone the repo and then type the followin
 
 Use the stable version:
 ```
-yarn add @FizzxyDev/BaileysPro
-```
-
-Use the edge version (no guarantee of stability, but latest fixes + features)
-```
-yarn add github:FizzxyDev/BaileysV2
+yarn add github:FarizGD/BaileysV2
 ```
 
 Then import your code using:
 ``` ts 
-import makeWASocket from '@FizzxyDev/BaileysPro'
+import makeWASocket from '@FarizGD/BaileysV2'
 ```
 
 ## Unit Tests
@@ -50,7 +45,7 @@ TODO
 WhatsApp provides a multi-device API that allows BaileysPro to be authenticated as a second WhatsApp client by scanning a QR code with WhatsApp on your phone.
 
 ``` ts
-import makeWASocket, { DisconnectReason } from '@FizzxyDev/BaileysPro'
+import makeWASocket, { DisconnectReason } from '@FarizGD/BaileysV2'
 import { Boom } from '@hapi/boom'
 
 async function connectToWhatsApp () {
